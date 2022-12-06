@@ -1,6 +1,6 @@
 package chapter03;
 
-public class OperatorEx9 {
+public class OperatorEx10 {
     public static void main(String[] args) {
         int a = 1000000;
 
