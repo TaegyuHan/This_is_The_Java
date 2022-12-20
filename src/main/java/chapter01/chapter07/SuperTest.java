@@ -1,7 +1,7 @@
-package chapter07;
+package chapter01.chapter07;
 
-class SuperTest2 {
-    public static void main(String args[]) {
+class SuperTest {
+    public static void main(String[] args) {
         Child c = new Child();
         c.method();
     }
@@ -12,8 +12,6 @@ class SuperTest2 {
 //}
 //
 //class Child extends Parent {
-//    int x=20;
-//
 //    void method() {
 //        System.out.println("x=" + x);
 //        System.out.println("this.x=" + this.x);

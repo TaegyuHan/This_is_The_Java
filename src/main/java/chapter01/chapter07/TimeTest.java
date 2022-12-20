@@ -1,4 +1,4 @@
-package chapter07;
+package chapter01.chapter07;
 
 public class TimeTest {
     public static void main(String[] args) {

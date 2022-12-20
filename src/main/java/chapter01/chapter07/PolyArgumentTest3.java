@@ -1,4 +1,4 @@
-package chapter07;
+package chapter01.chapter07;
 
 import java.util.*;            // Vector클래스를 사용하기 위해서 추가해 주었다.
 
@@ -88,6 +88,7 @@ class Buyer3 {            // 고객, 물건을 사는 사람
             sum += p.price;
             itemList += (i == 0) ? "" + p : ", " + p;
         }
+
         System.out.println("구입하신 물품의 총금액은 " + sum + "만원입니다.");
         System.out.println("구입하신 제품은 " + itemList + "입니다.");
     }
