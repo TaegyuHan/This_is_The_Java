@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 final class Singleton {
     private static Singleton s = new Singleton();

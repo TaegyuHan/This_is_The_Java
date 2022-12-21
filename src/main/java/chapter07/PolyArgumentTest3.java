@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 import java.util.*;            // Vector클래스를 사용하기 위해서 추가해 주었다.
 

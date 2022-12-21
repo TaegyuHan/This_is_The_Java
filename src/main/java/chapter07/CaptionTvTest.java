@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 class Tv {
     boolean power;    // 전원상태(on/off)

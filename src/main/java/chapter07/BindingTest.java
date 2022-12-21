@@ -1,9 +1,9 @@
-package chapter01.chapter07;
+package chapter07;
 
-class BindingTest2 {
+class BindingTest {
     public static void main(String[] args) {
-        Parent2 p = new Child2();
-        Child2 c = new Child2();
+        Parent p = new Child();
+        Child c = new Child();
 
         System.out.println("p.x = " + p.x);
         p.method();
@@ -13,7 +13,7 @@ class BindingTest2 {
     }
 }
 
-class Parent2 {
+class Parent {
     int x = 100;
 
     void method() {
@@ -21,4 +21,11 @@ class Parent2 {
     }
 }
 
-class Child2 extends Parent2 { }
+class Child extends Parent {
+    int x = 200;
+
+    @Override
+    void method() {
+        System.out.println("Child Method");
+    }
+}

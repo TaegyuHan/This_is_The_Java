@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 class Card {
     final int NUMBER;		// 상수지만 선언과 함께 초기화 하지 않고

@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 class Product {
     int price;            // 제품의 가격

@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 interface Parseable {
     // 구문 분석작업을 수행한다.

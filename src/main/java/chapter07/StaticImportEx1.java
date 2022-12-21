@@ -1,4 +1,4 @@
-package chapter01.chapter07;
+package chapter07;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.random;
